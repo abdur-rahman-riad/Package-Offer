@@ -1,0 +1,53 @@
+body{
+    background-color: #b9fffc;
+    /* background-color: #fff2f2; */
+}
+.main-section{
+    width: 80%;
+    margin:35px auto;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 3px 3px 12px rgb(202, 194, 194);
+    border-radius: 10px;
+}
+.head-title{
+    text-align: center;
+    width: 80%;
+    margin:30px auto;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 25px;
+}
+.card{
+    background-color: white;
+    box-shadow: 3px 3px 12px rgb(202, 194, 194);
+    text-align: center;
+    padding: 25px 0;
+    border-radius: 10px;
+}
+.btn-design{
+    background-color: #1daaa3;
+    box-shadow: 2px 2px 8px #e7e7e7;
+    color: white;
+    padding: 10px 38px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+h2{
+    color: orangered;
+}
+h1{
+    font-size: 2em;
+    color: teal;
+}
+.monthly{
+    font-size: 0.4em;
+}
+
+footer{
+    text-align: center;
+    color: gray;
+}
